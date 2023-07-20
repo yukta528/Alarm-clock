@@ -1,29 +1,43 @@
-This is a Digital Alarm Clock web application which user can use to set and manage multiple alarms. The application is built using HTML, CSS, and JavaScript.    
+# Digital Alarm Clock Web Application
 
-Features 
-1-	Displaying current time (clock)
-2-	Set alarms by specifying the hours, minutes, seconds, and AM/PM.
-3-	Display the list of all alarms with each alarm having a "Delete" button.
-4-	Delete an alarm from the list of alarms using the “Delete” button.
-5-	Display an alert when alarm goes off (current time matches with one of the alarm).    
+This is a Digital Alarm Clock web application that allows users to set and manage multiple alarms. The application is built using HTML, CSS, and JavaScript.
 
-How to Use 
-1-Clone the repository or download the source code to your local machine.  
-2-Open the index.html file in your web browser to access the Digital Alarm Clock application.    
+## Features
 
-The Digital Alarm Clock UI has the below mentioned components:  
-1-Time Display: This section displays the current time in 12-hour format - (HH:MM:SS AM/PM). The time is automatically updates every second as time passes. 
+1. **Displaying Current Time (Clock)**: The application displays the current time in 12-hour format (HH:MM:SS AM/PM). The time automatically updates every second to reflect the current time.
 
-2-Time values input for alarm: User can enter values for hours, minutes and seconds for the alarm and select either AM or PM from the picklist and alarm gets added to the list when user clicks the “Set Alarm” button.
+2. **Set Alarms**: Users can set alarms by specifying the hours, minutes, seconds, and AM/PM using input fields. Clicking the "Set Alarm" button adds the alarm to the list.
 
-If the user enters values outside range(for example- <0 or >12 or minutes/seconds <0 or >59), it will display an alert asking the user to enter correct values.
+3. **Display Alarm List**: All set alarms are displayed in a list. Each alarm entry shows the time in 12-hour format and includes a "Delete" button to remove the alarm.
 
-If the user leaves out any value- hh, mm or ss, it will display an alert asking the user to enter all values.
+4. **Delete Alarms**: Users can delete individual alarms from the list by clicking the "Delete" button next to each alarm.
 
+5. **Alarm Alerts**: When an alarm's set time matches the current time, the application triggers an alert to notify the user that the alarm is going off.
 
-3-Alarm List: The list displays all the alarms set by user. Each list item shows the time in 12-hour format, and there is a "Delete" button for each alarm. Alarm gets deleted from the alarm list when user clicks the “Delete” button.
+## How to Use
 
-If an alarm time matches the current time, you will receive an alert indicating that you have set an alarm with the matching time and alarm is going off now. 
+1. Clone the repository or download the source code to your local machine.
 
+2. Open the `index.html` file in your web browser to access the Digital Alarm Clock application.
 
- Author This Digital Alarm Clock application is developed by Yukta Sharma. You can contact me at yuktasharma2000@gmail.com for any questions or inquiries related to this project.
+### Digital Alarm Clock UI Components
+
+1. **Time Display**: This section shows the current time in 12-hour format (HH:MM:SS AM/PM). The time automatically updates every second.
+
+2. **Time Input for Alarm**: Users can enter values for hours, minutes, and seconds for the alarm. They can also select either AM or PM from the picklist. Clicking the "Set Alarm" button adds the alarm to the list.
+
+   - If the user enters values outside the range (e.g., <0 or >12 for hours, or <0 or >59 for minutes/seconds), an alert will ask the user to enter correct values.
+
+   - If the user leaves out any value for hours, minutes, or seconds, an alert will ask the user to enter all values.
+
+3. **Alarm List**: The list displays all the alarms set by the user. Each entry shows the alarm time in 12-hour format, and there is a "Delete" button for each alarm. Clicking the "Delete" button removes the alarm from the list.
+
+4. **Alarm Alerts**: If an alarm time matches the current time, an alert will notify the user that they have set an alarm with a matching time, and the alarm is going off now.
+
+## Author
+
+This Digital Alarm Clock application is developed by Yukta Sharma. You can contact me at yuktasharma2000@gmail.com for any questions or inquiries related to this project.
+
+---
+
+The converted text above is in Markdown format. You can use this in your project's README.md file to provide clear documentation and instructions for users.
