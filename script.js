@@ -1,7 +1,7 @@
 //fetching and displaying current time
 let time = document.querySelector('#currTime');
 setInterval(function () {
-    let date_str = new Date().toLocaleTimeString();
+    let date_str = new Date().toLocaleTimeString('en-US');
     if (date_str.length < 11) {
         date_str = "0" + date_str;
     }
