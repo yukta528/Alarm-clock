@@ -1,0 +1,120 @@
+/* for outer-most div */
+#container {
+
+    height: auto;
+    min-height: 80vh;
+    width: 55vw;
+    background: linear-gradient(180deg, rgba(202, 255, 165, 1) 0%, rgba(255, 244, 156, 1) 35%, rgba(255, 193, 225, 1) 100%);
+    position: absolute;
+    top: 10%;
+    left: 23%;
+    color: rgb(89 89 89);
+    border: 1px solid #4e4c4d;
+    border-radius: 5%;
+
+}
+
+/* for current timestamp */
+#currTime {
+    width: 100%;
+    height: auto;
+    font-size: 2rem;
+
+
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+/* setting an alarm */
+
+#alarm {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    color: rgb(89 89 89);
+    border-radius: 30%;
+    font-size: 1.2rem;
+    text-align: center;
+
+}
+
+
+#ampm {
+    height: 57px;
+    width: 63px;
+    margin: 5px;
+    color: rgb(89 89 89);
+    border: 2px solid rgb(89 89 89);
+    border-radius: 30%;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 2px;
+    padding-right: 2px;
+    font-size: 1.2rem;
+
+}
+
+button {
+    width: 120px;
+    height: 60px;
+    color: rgb(89 89 89);
+    font-size: 1.2rem;
+    margin-left: 10%;
+    background-color: white;
+}
+
+/* list elements of all alarms */
+
+ul {
+    list-style-type: none;
+}
+
+#alarm_list li {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    margin-right: 3%;
+    margin-left: -5%;
+    margin-bottom: 3%;
+    margin-right: 18%;
+    margin-left: 13%;
+}
+
+#alarm_list li label {
+    margin: auto;
+    margin-left: 0%;
+}
+
+#all_alarms {
+
+    margin: 4%;
+    margin-left: 18%;
+    font-size: 2rem;
+
+
+
+}
+
+.delete_alarm {
+    height: 46px;
+}
+
+/* for removing spin element from input box - Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* for removing spin element from input box - Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Alarm Clock
+    </title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!--container div for the alarm clock-->
+    <div id="container">
+        <!--container div for time display-->
+        <div id="currTime">02:23:32 PM
+
+        </div>
+        <!--container div for setting an alarm-->
+        <div id="alarm">
+            <input id="hh" type="number" min="0" max="12" placeholder="HH">
+            <input id="mm" type="number" min="0" max="59" placeholder="MM">
+            <input id="ss" type="number" min="0" max="59" placeholder="SS">
+            <select id="ampm">
+                <option value="AM"> AM</option>
+                <option value="PM"> PM</option>
+            </select>
+            <button id="submit_alarm" type="submit">Set Alarm</button>
+        </div>
+        <!--display all existing alarms-->
+        <div>
+            <p id="all_alarms">Alarms</p>
+            <ul id="alarm_list">
+
+            </ul>
+        </div>
+        <div></div>
+    </div>
+    <script src="./script.js"></script>
+    <script src="https://kit.fontawesome.com/9238b62b02.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
