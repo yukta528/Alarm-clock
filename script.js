@@ -86,7 +86,7 @@ function deleteAlarm(e) {
 setInterval(function () {
     const alarm_check = [...document.querySelectorAll('#alarm_list li label')];
     for (const j of alarm_check) {
-        let alarm_str = new Date().toLocaleTimeString();
+        let alarm_str = new Date().toLocaleTimeString('en-US');
         if (alarm_str.length < 11) {
             alarm_str = "0" + alarm_str;
         }
